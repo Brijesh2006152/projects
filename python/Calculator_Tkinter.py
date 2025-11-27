@@ -23,9 +23,6 @@ def calculate():
     except:
         exp.insert(0, "invalid")
 
-
-
-
 # row 1
 btn1 = Button(root, text="7", padx=20, pady=10, command=lambda: insert_num(7))
 btn2 = Button(root, text="8", padx=20, pady=10, command=lambda: insert_num(8))
@@ -79,3 +76,4 @@ btn17.grid(row=5, column=0, columnspan=5)
 
 
 root.mainloop()
+
