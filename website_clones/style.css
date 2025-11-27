@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", Sans Serif;
+}
+
+header{
+    background-color: #000000;
+    padding: 25px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.first-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 40px;
+    width: 40px;
+    border-radius: 15px;
+    margin: 0px 10px;
+}
+.square{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 3px solid #000000;
+    border-left: none;
+    border-bottom: none;
+    height: 21px;
+    width: 21px;
+    border-top-right-radius: 3px;
+}
+.circle{
+    border: 3px solid #000000;
+    height: 7px;
+    width: 7px;
+    border-radius: 7px;
+}
+
+.beside-icon{
+    color: #fff;
+}
+
+.user-action{
+    margin: 0px 20px;
+}
+#search, #request, #sign-in{
+    
+    height: 50px;
+    width: 300px;
+    font-size: 25px;
+    margin: 0px 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#search{
+    border: none;
+    
+}
+#request{
+    border: 1px solid #fff;
+    background-color: #5555;
+    padding: 5px 10px;
+    color: #fff;
+}
+#sign-in{
+    border: none;
+    background-color: #4c5fd5;
+    width: 120px;
+}
+
+.container{
+    background-color: #dadbf1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: fit-content;
+    padding: 80px;
+}
+
+.container-block{
+    font-size: 65px;
+    margin: 0px;
+    padding: 30px;
+}
+.container-text{
+    border: 1px solid black;
+    width: 686px;
+    background-color: white;
+    border-radius: 2px;
+}
+.container-text #user-help-text{
+    margin: 0;
+    padding: 12px;
+    height: 30px;
+    width: 600px;
+    display: inline-block;
+    border: none;
+    background-color: rgb(255, 255, 255);
+
+
+}
+.container-text #user-help-btn{
+    margin: 0;
+    padding: 0;
+    height: 54px;
+    width: 56px;
+    display: inline-block;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.contents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px auto;
+    padding: 10px 100px;
+    
+}
+
+.facility-provided{
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    width: 480px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.img-box img{
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+}
+
+
+
+.facility-head{
+    line-height: 50px;
+    padding: 10px 4px;
+    font-size: 25px;
+
+}
+
+.facility-child{
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.facility-info{
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+footer{
+    background-color: #000000;
+    color: white;
+    padding: 50px;
+    height: 450px;
+}
+
+.links-given{
+    display: flex;
+}
+
+.link-access{
+    width: 155px;
+    margin: 20px;
+    padding: 20px;
+    /* border: 2px solid red; */
+}
+
+.link-head h2{
+    line-height: 50px;
+}
+
+.link-body li{
+    list-style: none;
+    line-height: 25px;
+}
+
+.patent{
+    float: right;
+
+}
+.patent p{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.patent .icon{
+    margin: 25px 5px;
+}
